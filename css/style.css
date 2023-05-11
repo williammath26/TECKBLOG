@@ -1,0 +1,108 @@
+/*Limpando fromataações padrões*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  background: #e6e6e6;
+}
+/*Layout*/
+#cabecalho {
+  background-color: #f7b600;
+  padding: 15px;
+  text-align: center;
+}
+#logo,
+#area-menu {
+  padding: 10px;
+}
+#area-principal {
+  width: 920px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+#postagens {
+  width: 660px;
+  background: white;
+  float: left;
+}
+.postagem {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.lateral {
+  width: 240px;
+  float: right;
+}
+.conteudo_lateral {
+  background: white;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+#rodape {
+  clear: both;
+  text-align: center;
+  padding: 15px;
+  background: #ccc;
+  width: 630px;
+}
+.postagem_lateral {
+  border-bottom: 1px solid #ccc;
+}
+/*Formatação do Menu*/
+a {
+  text-decoration: none;
+}
+#area-menu > a:link,
+#area-menu > a:visited {
+  color: #fff;
+  padding: 8px 12px;
+}
+#area-menu > a:hover {
+  color: #f7b600;
+  background: #fff;
+}
+.postagem > a {
+  color: #f7b600;
+}
+.postagem > a:hover {
+  text-decoration: underline;
+}
+/*Formatações  Gerais*/
+.postagem_lateral > p {
+  font-size: 00.8em;
+  padding: 5px;
+}
+.postagem_lateral > a {
+  color: #f7b600;
+}
+.postagem_lateral > a:hover {
+  text-decoration: underline;
+}
+#logo > h1 {
+  color: #4e4e4e;
+  font-size: 2.5em;
+}
+.postagem > h2 {
+  color: #f7b600;
+}
+.conteudo_lateral > h3 {
+  color: #565656;
+  background: #ccc;
+  padding: 5px;
+}
+.data {
+  font-size: 0.8em;
+  border-bottom: 1px solid #ccc;
+  display: block;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.branco {
+  color: white;
+}
